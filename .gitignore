@@ -1,0 +1,43 @@
+# ==================== CLion/IntelliJ ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==================== CMake Build Directories ====================
+cmake-build-*/
+build/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# ==================== Executables and Compiled Files ====================
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# ==================== CMake Generated Files ====================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+CTestTestfile.cmake
+_deps/
+
+# ==================== System Files ====================
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+*.log
